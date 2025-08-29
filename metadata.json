@@ -1,0 +1,7 @@
+{
+  "name": "Disaster Ready Campus",
+  "description": "An educational platform for schools and colleges in India to enhance disaster preparedness through interactive modules, virtual drills, and region-specific alerts. It aims to create a more disaster-resilient society by equipping students and staff with life-saving knowledge.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
