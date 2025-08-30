@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { DisasterType, DrillScenario, DrillOption, DrillHistoryItem } from '../types';
 import { generateDrillScenario, generateDrillFeedback } from '../services/geminiService';
 import { useAppContext } from '../hooks/useAppContext';
-import { ClipboardDocumentListIcon, CheckCircleIcon, XCircleIcon } from './icons/Icons';
+import { ClipboardDocumentListIcon, CheckCircleIcon, XCircleIcon } from './icons/icons';
 
 const DRILL_LENGTH = 5;
 
