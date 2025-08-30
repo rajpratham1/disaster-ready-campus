@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { DisasterType } from '../types';
 import { useAppContext } from '../hooks/useAppContext';
 import { generateModuleContent } from '../services/geminiService';
-import { ArrowLeftIcon, CheckCircleIcon } from './icons/Icons';
+import { ArrowLeftIcon, CheckCircleIcon } from './icons/icons';
 
 interface ModuleDetailProps {
     moduleType: DisasterType;
