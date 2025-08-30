@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { DisasterType } from '../types';
 import { useAppContext } from '../hooks/useAppContext';
 import ModuleDetail from './ModuleDetail';
-import { EarthquakeIcon, FireIcon, FloodIcon, CycloneIcon, CheckCircleIcon, TsunamiIcon } from './icons/Icons';
+import { EarthquakeIcon, FireIcon, FloodIcon, CycloneIcon, CheckCircleIcon, TsunamiIcon } from './icons/icons';
 
 const disasterInfo = {
     [DisasterType.EARTHQUAKE]: { icon: <EarthquakeIcon />, description: "Learn how to prepare for and react during an earthquake.", color: "bg-yellow-500" },
