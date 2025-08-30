@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExclamationTriangleIcon } from './icons/Icons';
+import { ExclamationTriangleIcon } from './icons/icons';
 
 const EarthquakeAlertBanner: React.FC = () => {
     return (
