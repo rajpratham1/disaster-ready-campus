@@ -6,7 +6,7 @@ import {
 } from 'recharts';
 import { Page, WeatherInfo } from '../types';
 import { generateRegionalTips } from '../services/geminiService';
-import { BellIcon, LightBulbIcon, SunIcon, CloudIcon, RainIcon, WindIcon, SparklesIcon, ExclamationTriangleIcon } from './icons/Icons';
+import { BellIcon, LightBulbIcon, SunIcon, CloudIcon, RainIcon, WindIcon, SparklesIcon, ExclamationTriangleIcon } from './icons/icons';
 
 // Mock data for drill participation
 const drillData = [
