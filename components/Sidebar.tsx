@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { useAppContext } from '../hooks/useAppContext';
 import { Page } from '../types';
