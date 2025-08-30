@@ -10,6 +10,7 @@ import { Page, DisasterType } from './types';
 import AlertBanner from './components/AlertBanner';
 import EarthquakeAlertBanner from './components/EarthquakeAlertBanner';
 import { HomeIcon, BookOpenIcon } from './components/icons/icons.tsx';
+import { ShieldCheckIcon } from './components/icons/icons.tsx';
 
 const App: React.FC = () => {
     const [currentPage, setCurrentPage] = useState<Page>(Page.DASHBOARD);
