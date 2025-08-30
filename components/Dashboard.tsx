@@ -1,4 +1,4 @@
-
+import { HomeIcon, ShieldIcon } from './icons/icons.tsx';
 import React, { useState, useEffect } from 'react';
 import { useAppContext } from '../hooks/useAppContext';
 import {
