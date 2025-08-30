@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { PhoneIcon } from './icons/Icons';
+import { PhoneIcon } from './icons/icons';
 
 interface Contact {
     name: string;
