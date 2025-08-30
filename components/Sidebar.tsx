@@ -2,7 +2,7 @@
 import React from 'react';
 import { useAppContext } from '../hooks/useAppContext';
 import { Page } from '../types';
-import { HomeIcon, BookOpenIcon, ShieldCheckIcon, PhoneIcon, XMarkIcon } from './icons/Icons';
+import { HomeIcon, BookOpenIcon, ShieldCheckIcon, PhoneIcon, XMarkIcon } from './icons/icons';
 
 interface SidebarProps {
     isSidebarOpen: boolean;
