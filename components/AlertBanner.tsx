@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { MegaphoneIcon, XMarkIcon } from './icons/Icons';
+import { MegaphoneIcon, XMarkIcon } from './icons/icons';
 
 interface AlertBannerProps {
     message: string;
